@@ -1,0 +1,102 @@
+/* General Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e272e; /* Dark grey background for high contrast */
+    color: #ffffff; /* White text for contrast */
+}
+
+/* Form Container */
+form {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #343208; /* Green background for the form */
+    border: 2px solid #d2d7d4; /* Darker green border */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #2c3e50; /* Dark blue for text within the form */
+}
+
+/* Form Heading */
+h2 {
+    text-align: center;
+    color: #ffffff; /* White heading for contrast */
+    margin-bottom: 20px;
+}
+
+/* Input Fields */
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #34495e; /* Greyish blue border */
+    border-radius: 5px;
+    font-size: 16px;
+    color: #2c3e50; /* Dark blue text */
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #3498db; /* Light blue on focus */
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+/* Error Messages */
+p {
+    color: #e74c3c; /* Red for errors */
+    font-size: 14px;
+    margin: -10px 0 10px;
+}
+
+/* Buttons */
+button[type="submit"] {
+    background-color: #0984e3; /* Blue button for submission */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button[type="submit"]:hover {
+    background-color: #74b9ff; /* Lighter blue on hover */
+}
+
+button[type="reset"] {
+    background-color: #e17055; /* Red-orange button for reset */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button[type="reset"]:hover {
+    background-color: #d63031; /* Darker red-orange on hover */
+}
+
+/* Success or Feedback Message */
+.feedback {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.feedback.success {
+    color: #27ae60; /* Green for success */
+}
+
+.feedback.error {
+    color: #e74c3c; /* Red for errors */
+}
+
+/* Footer Style */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #2c3e50; /* Dark blue footer */
+    color: white;
+    font-size: 14px;
+    border-top: 2px solid #3498db; /* Light blue border for footer */
+}
